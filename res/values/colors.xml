@@ -256,4 +256,5 @@
     <!-- Highlight color used in places such as ripples -->
     <color name="control_highlight_color">#1A000000</color>
 
+    <color name="ic_launcher_background">#4857E6</color>
 </resources>
