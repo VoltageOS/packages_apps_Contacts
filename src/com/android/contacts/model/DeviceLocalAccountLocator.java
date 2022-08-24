@@ -42,10 +42,6 @@ public final class DeviceLocalAccountLocator {
      * Returns a list of device local accounts
      */
     public List<AccountWithDataSet> getDeviceLocalAccounts() {
-        if (!mLocalAccount.get(0).hasData(mContext)) {
-            return Collections.emptyList();
-        } else {
-            return mLocalAccount;
-        }
+        return mLocalAccount;
     }
 }
